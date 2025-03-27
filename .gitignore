@@ -1,0 +1,84 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# Data files
+# *.csv
+*.tsv
+*.db
+*.sqlite
+*.h5
+data/
+datasets/
+raw_data/
+processed_data/
+# Uncomment if you want to include data files
+# !data/.gitkeep
+
+# Model files
+*.model
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pb
+*.onnx
+models/
+checkpoints/
+saved_models/
+# Uncomment if you want to include model directories
+# !models/.gitkeep
+
+# Logs and results
+logs/
+results/
+runs/
+tensorboard/
+wandb/
+mlruns/
+lightning_logs/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.vim/
+
+# Documentation
+docs/_build/
+site/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
